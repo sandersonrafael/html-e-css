@@ -26,3 +26,11 @@
     overflow: hidden;
     overflow-x: auto;
 }
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+.footer {
+    text-align: center;
+    color: var(--primary-color)
+}
