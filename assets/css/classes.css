@@ -50,4 +50,5 @@ body .full-width {
     border-radius: 10%;
     font-size: 4rem;
     border: 0.1rem solid grey;
+    color: var(--primary-color)
 }
