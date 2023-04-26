@@ -4,7 +4,7 @@
     gap: var(--gap);
     min-height: 100vh;
     position: relative;
-    top: -8rem
+    /* top: -8rem */
 }
 .intro-text-content, .intro-img {
     display: flex;
@@ -69,4 +69,26 @@
 }
 .gallery-img img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+.contact-form {
+    grid-column: span 2;
+}
+.contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap)
+}
+.form-group {
+    flex: 1 1 320px;
+}
+.form-group label {
+    display: block;
+}
+.form-group input, .form-group textarea {
+    border: none;
+    background-color: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
 }

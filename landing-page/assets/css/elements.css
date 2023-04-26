@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 html {
@@ -52,7 +53,6 @@ table {
     min-width: 360px;
     width: 100%;
     border-collapse: collapse;
-
 }
 table caption {
     font-style: italic;
