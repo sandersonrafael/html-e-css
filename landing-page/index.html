@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="assets/css/elements.css">
-    <link rel="stylesheet" href="assets/css/classes.css">
-    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 
 <body>
+    <input class="close-menu" id="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
-                <a href="#home">Logo</a>
+                <a href="#home" onclick="getElementById('close-menu').checked = false">Logo</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#grid-one">grid one</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -256,6 +259,8 @@
         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
         <p>Desenvolvido por <a href="https://www.linkedin.com/in/sandersonrafael/" target="_blank" rel="noopener noreferrer">Sanderson Rafael</a> para o curso de html e css do <a href="https://www.udemy.com/user/luiz-otavio-miranda/" target="_blank" rel="noopener noreferrer">Luiz Otávio Miranda</a>, na Udemy.</p>
     </footer>
+
+    <a class="back-to-top" href="#">↑</a>
 </body>
 
 </html>

@@ -34,3 +34,20 @@ body .full-width {
     text-align: center;
     color: var(--primary-color)
 }
+.close-menu {
+    display: none;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    font-size: 4rem;
+    border: 0.1rem solid grey;
+}
